@@ -6,10 +6,9 @@ class Shoe
      @brand = brand
    end
 
-   def cobble learn spec/02_shoe_spec.rb
+   def cobble 
      self.conditon = "new"
      puts "Your shoe is as good as new!"
-     
    end
 
 end
