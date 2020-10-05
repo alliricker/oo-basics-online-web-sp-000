@@ -10,6 +10,7 @@ class Shoe
        if shoe.condition == "old"
        puts "Your shoe is as good as new!"
        shoe.condition = "new"
+     end
    end
 
 end
