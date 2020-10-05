@@ -7,7 +7,7 @@ class Shoe
    end
 
    def cobble(condition)
-     if condition = "old"
+     if condition == "old"
        puts "The shoe has been repair"
        return condition = "new"
      end
