@@ -11,6 +11,8 @@ class Shoe
     puts "Your shoe is as good as new!"
    end
 
-
+cobble = Shoe.new
+cobble.condition = "new"
+cobble.condition
 
 end
