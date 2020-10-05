@@ -10,7 +10,7 @@ class Shoe
 if Shoe.condition == "old"
      Shoe.conditon = "new"
      puts "Your shoe is now good as new!"
-
+     end
    end
 
 end
